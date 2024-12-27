@@ -241,38 +241,38 @@ elif page == "Visualization":
     image1 = Image.open("images.jpeg")
 
 
-    st.image(image1, caption="Happy Marriage", use_column_width=True)
+    st.image(image1, caption="Happy Marriage", use_container_width=True)
 elif page == "Comparison of ML Algorithms":
 
     st.title("Comparison of Metrics for Each Algorithms")
     st.subheader("Precision")
     image1 = Image.open("Precision.png")
-    st.image(image1, caption="Precision", use_column_width=True)
+    st.image(image1, caption="Precision", use_container_width=True)
 
     st.subheader("Accuracy")
     image1 = Image.open("accuracy.png")
-    st.image(image1, caption="Accuracy", use_column_width=True)
+    st.image(image1, caption="Accuracy", use_container_width=True)
 
     st.subheader("Recall")
     image1 = Image.open("Recall.png")
-    st.image(image1, caption="Recall", use_column_width=True)
+    st.image(image1, caption="Recall", use_container_width=True)
 
 
     st.subheader("Specificity")
     image1 = Image.open("Spe.png")
-    st.image(image1, caption="Specificity", use_column_width=True)
+    st.image(image1, caption="Specificity", use_container_width=True)
 
     st.subheader("F1-Score")
     image1 = Image.open("f1score.png")
-    st.image(image1, caption="F1-Score", use_column_width=True)
+    st.image(image1, caption="F1-Score", use_container_width=True)
 
     st.subheader("ROC AUC Score")
     image1 = Image.open("RocAuc.png")
-    st.image(image1, caption="ROC AUC Score", use_column_width=True)
+    st.image(image1, caption="ROC AUC Score", use_container_width=True)
 
     st.subheader("ROC and AUC")
     image1 = Image.open("Roc.png")
-    st.image(image1, caption="ROC and Auc", use_column_width=True)
+    st.image(image1, caption="ROC and Auc", use_container_width=True)
     st.markdown("""
     ### Based on the provided metrics, the SGD Classifier stands out with:
 
