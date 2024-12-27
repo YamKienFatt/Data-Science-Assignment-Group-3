@@ -1,0 +1,13 @@
+Required Packages Imported and Environment:
+PyCharm 2024.2.1 (Professional Edition)
+Base conda Interpreter
+Python 3.12.4
+streamlit 1.32.0
+numpy 
+pickle 
+pandas 
+from sklearn.decomposition import PCA
+from sklearn.preprocessing import StandardScaler
+matplotlib.pyplot 
+seaborn 
+from PIL import Image
