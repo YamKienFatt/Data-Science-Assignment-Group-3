@@ -249,7 +249,7 @@ elif page == "Comparison of ML Algorithms":
     
     st.subheader("Table of Metrics by Classifiers")
     image1 = Image.open("table.png")
-    st.image(image1, caption="Table of Metrics by Classifiers", use_column_width=True)
+    st.image(image1, caption="Table of Metrics by Classifiers", use_container_width=True)
 
     st.subheader("Precision")
     image1 = Image.open("Precision.png")
