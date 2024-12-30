@@ -245,6 +245,12 @@ elif page == "Visualization":
 elif page == "Comparison of ML Algorithms":
 
     st.title("Comparison of Metrics for Each Algorithms")
+
+    
+    st.subheader("Table of Metrics by Classifiers")
+    image1 = Image.open("table.png")
+    st.image(image1, caption="Table of Metrics by Classifiers", use_column_width=True)
+
     st.subheader("Precision")
     image1 = Image.open("Precision.png")
     st.image(image1, caption="Precision", use_container_width=True)
